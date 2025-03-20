@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "avatar": "👤",
+      "balance": 10000
+    },
+    {
+      "id": "2",
+      "name": "Jane Doe",
+      "avatar": "👩‍💼",
+      "balance": 17046.219999999994
+    }
+  ],
+  "holdings": [
+    {
+      "user_id": 1,
+      "symbol": "AAPL",
+      "shares": 10,
+      "price": 150,
+      "id": "72bb"
+    },
+    {
+      "user_id": 1,
+      "symbol": "TSLA",
+      "shares": 5,
+      "price": 700,
+      "id": "ee15"
+    },
+    {
+      "user_id": 1,
+      "symbol": "MSFT",
+      "shares": 8,
+      "price": 280,
+      "id": "dc7b"
+    },
+    {
+      "user_id": 1,
+      "symbol": "AMZN",
+      "shares": 2,
+      "price": 3300,
+      "id": "1c4f"
+    },
+    {
+      "user_id": 2,
+      "symbol": "NFLX",
+      "shares": 8,
+      "price": 400,
+      "id": "d32f"
+    },
+    {
+      "user_id": 2,
+      "symbol": "AMD",
+      "shares": 20,
+      "price": 110,
+      "id": "e08e"
+    },
+    {
+      "user_id": 2,
+      "symbol": "DIS",
+      "shares": 15,
+      "price": 120,
+      "id": "23dc"
+    },
+    {
+      "user_id": 2,
+      "symbol": "SPY",
+      "shares": 10,
+      "price": 400,
+      "id": "3f37"
+    }
+  ],
+  "watchlist": [
+    {
+      "user_id": 1,
+      "symbol": "GOOGL",
+      "id": "c803"
+    },
+    {
+      "user_id": 1,
+      "symbol": "META",
+      "id": "c455"
+    },
+    {
+      "user_id": 1,
+      "symbol": "NVDA",
+      "id": "7d93"
+    },
+    {
+      "user_id": 1,
+      "symbol": "NFLX",
+      "id": "6f8c"
+    },
+    {
+      "user_id": 1,
+      "symbol": "BABA",
+      "id": "6f47"
+    },
+    {
+      "user_id": 2,
+      "symbol": "META",
+      "id": "0896"
+    },
+    {
+      "user_id": 2,
+      "symbol": "NVDA",
+      "id": "7c33"
+    },
+    {
+      "user_id": 2,
+      "symbol": "INTC",
+      "id": "f144"
+    },
+    {
+      "user_id": 2,
+      "symbol": "TSLA",
+      "id": "fd40"
+    },
+    {
+      "user_id": 2,
+      "symbol": "AAPL",
+      "id": "a9b4"
+    }
+  ]
+}

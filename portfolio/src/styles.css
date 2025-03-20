@@ -1,0 +1,130 @@
+/* Global Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: #003366;
+    color: #ffffff;
+    padding: 16px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .header:hover {
+    background-color: #002244;
+  }
+  
+  /* Navigation Styles */
+  .navigation {
+    background-color: #f4f7fc;
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-link {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #005bb5;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nav-link:active {
+    background-color: #004d99;
+    transform: translateY(0);
+  }
+  
+  .nav-link:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.5);
+  }
+  
+  /* Content Styles */
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f4f7fc;
+    margin: 16px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: #003366;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: auto;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header {
+      font-size: 20px;
+    }
+  
+    .navigation {
+      padding: 12px 0;
+    }
+  
+    .nav-link {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    .user-button {
+      padding: 10px;
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header {
+      font-size: 18px;
+    }
+  
+    .navigation {
+      flex-direction: column;
+      gap: 8px;
+      padding: 8px;
+    }
+  
+    .nav-link {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+  
